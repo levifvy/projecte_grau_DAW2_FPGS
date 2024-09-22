@@ -1,0 +1,92 @@
+Memòria del Projecte: “Athlitikés Fanéles”
+
+1. Introducció:
+
+1.1 Context:
+El projecte "Athlitikés Fanéles" consisteix en el desenvolupament d'una pàgina web per a la venda de samarretes esportives. Aquest e-commerce té com a objectiu oferir un catàleg complet de samarretes per a aficionats de diversos esports, proporcionant una plataforma intuïtiva i fàcil d'usar.
+
+1.2 Justificació:
+L'e-commerce és una peça fonamental en el mercat actual. Amb un creixement continu en les vendes en línia, especialment dins el sector esportiu, és essencial per a "Athlitikés Fanéles" aprofitar aquest creixement mitjançant una plataforma robusta que proporcioni una experiència d'usuari òptima.
+
+1.3 Objectius:
+- Oferir una interfície d'usuari neta i funcional per facilitar la cerca i compra de samarretes.
+- Implementar un sistema de pagament segur amb targeta de crèdit.
+- Permetre als usuaris registrar-se, guardar un historial de comandes i gestionar les seves compres.
+- Facilitar als administradors l’accés a les dades de compra i la generació d'estadístiques per a la presa de decisions estratègiques.
+
+1.4 Estratègia i planificació del projecte:
+Es proposa seguir una metodologia Agile, amb lliuraments iteratius que permetin ajustaments segons el progrés i el feedback d’usuaris i stakeholders.
+
+1.5 Metodologia de treball:
+La pàgina web es desenvoluparà utilitzant tecnologies com HTML5, CSS3, JavaScript (React.js per a la interfície), i un backend amb Laravel (PHP) i base de dades MySQL per a la gestió d'usuaris i comandes. El sistema de pagament es gestionarà a través de Stripe o una passarel·la de pagament similar.
+
+1.6 Estudi econòmic i pressupostari:
+Tot i els costos inicials per al desenvolupament, manteniment, integració de la passarel·la de pagament, allotjament i seguretat (SSL), es prioritzarà l'ús de plataformes open source i eines gratuïtes. Només es gastarien diners si fos imprescindible.
+
+ 2. Descripció del projecte:
+
+2.1 Anàlisi de requisits:
+El sistema ha de permetre:
+- Registrar-se i iniciar sessió amb credencials segures.
+- Accedir a un catàleg de samarretes filtrable per categories (esport, equip, preu, talla, etc.).
+- Visualitzar detalls dels productes, amb descripcions, imatges, i disponibilitat.
+- Afegir productes al carret de compra i procedir al pagament.
+- Generar un historial d'usuaris amb compres anteriors i recomanacions.
+
+2.2 Tecnologies:
+- Frontend: HTML5, CSS3, JavaScript, React.js.
+- Backend:Laravel(PHP), MySQL.
+- Seguretat: Certificats SSL, hashing de contrasenyes (bcrypt), autenticació JWT.
+- Passarel·la de pagament: Stripe.
+
+2.3 Estructura del projecte:
+- Home: Inclou les novetats i productes destacats, amb enllaços a categories populars.
+- Catàleg: Visualització del catàleg complet, amb opcions de filtre i cerca avançada.
+- Pàgina de producte: Mostra les especificacions completes de cada samarreta, amb opcions d’afegir al carret.
+- Carret de compra: Visualitza els articles seleccionats i ofereix l’opció de procedir al pagament.
+- Compte d’usuari: Perfil on es poden veure les comandes realitzades, historial de recerques i dades personals.
+- Estadístiques per a l’administrador: Accés a les dades de vendes, estadístiques de productes més venuts i control del flux d'efectiu.
+
+2.4 Descripció dels components:
+- Menú de navegació: Present a totes les pàgines, facilita l'accés ràpid a les diferents seccions.
+- Botó de cerca: Permet als usuaris trobar productes ràpidament introduint criteris clau.
+- Filtre de productes: Per afinar les opcions segons esport, equip, preu, talla i altres atributs.
+- Icona del carret: Mostra un resum de les compres actuals i permet accedir a la pàgina de compra.
+- Formulari de registre i inici de sessió: Utilitza autenticació segura.
+- Historial d’usuaris: Mostra les comandes prèvies i recomanacions basades en compres anteriors.
+
+2.5 Definició de les funcionalitats:
+- Registre i inici de sessió: Implementat amb validacions de seguretat.
+- Catàleg dinàmic: Llistat de productes amb opció de filtratge i cerca.
+- Compra i pagament: Funcionalitat de pagament amb targeta de crèdit.
+- Estadístiques per a administradors: Visualització de les dades per millorar el màrqueting i gestió d'estocs.
+
+ 3. Conclusions:
+3.1 Conclusions generals del projecte:
+El projecte proporciona una solució integral per a la venda de samarretes esportives, combinant una interfície d'usuari intuïtiva amb funcionalitats avançades de compra i gestió.
+
+3.2 Consecució dels objectius:
+Els objectius de la plataforma són assolits mitjançant una navegació eficient, pagament segur, i una administració senzilla de dades.
+
+3.3 Valoració de la metodologia i planificació:
+L'enfocament Agile permet adaptacions constants i ràpides a les necessitats dels usuaris, facilitant un desenvolupament progressiu.
+
+3.4 Visió de futur:
+S'estudia la possibilitat d'integrar noves funcions, com ara programes de fidelització, vendes internacionals, i més opcions de personalització de les samarretes.
+
+ 4. Glossari:
+- Frontend: Part visual de la web que interactua amb l’usuari.
+- Backend: Part de la web que gestiona les dades i la lògica de servidor.
+- JWT: JSON Web Token, utilitzat per a l’autenticació segura.
+- Stripe: Passarel·la de pagament en línia.
+
+ 5. Bibliografia:
+- Documentació oficial de React.js i Laravel(PHP).
+- https://es.react.dev/learn
+- https://laravel.com/
+
+- Stripe API documentation.
+  	- https://stripe.com/es
+
+ 6. Annexos:
+Inclou diagrames UML, diagrames de flux, esquemes de base de dades i mockups de la interfície, com a prototips generats en figma.
